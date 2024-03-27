@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="APITestNG">
+    <test name="API Test Suite">
+        <classes>
+            <class name="API_ApplicationDataTests"/>
+            <class name="API_AuthenticationTests"/>
+            <class name="API_PlaySongTests"/>
+        </classes>
+    </test>
+</suite>
